@@ -13,3 +13,7 @@ When webpack processes your application, it starts from a list of modules define
 Bundling your application is especially powerful for HTTP/1.1 clients, as it minimizes the number of times your app has to wait while the browser starts a new request. For HTTP/2, you can also use Code Splitting to achieve best results.
 
 - Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+
+- Check out the [Dependency Graph](https://webpack.js.org/concepts/dependency-graph/) section to learn more about how webpack handles module bundling.
+- Check out the [Core Concepts](https://webpack.js.org/concepts/) section for a more detailed overview of how webpack works.
+- Check out the [Basic bundle app](https://github.com/ronami/minipack/blob/master/src/minipack.js) to learn more about how bundlers work.
